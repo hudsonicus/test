@@ -45,9 +45,7 @@ ui <- page_sidebar(
 
 # Serveur logic ----
 server <- function(input, output) {
-  
-  bs_themer()
-  
+
   output$espece_select = renderText({
     input$espece
   })
